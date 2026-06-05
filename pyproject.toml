@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "scyseq"
 # version number is dynamically retrieved from __init__/py file
-dynamic = ["version"]
+#dynamic = ["version"]
 description = "Provides objects and tools to analyze symbolic sequences"
 readme = "README.md"
 authors = [
@@ -24,8 +24,8 @@ docs = ["sphinx", "sphinx-gallery", "nbsphinx",
 [tool.hatch.build.targets.wheel]
 packages = ["src/scyseq"]
 
-[tool.hatch.version]
-path = "src/scyseq/__init__.py"
+#[tool.hatch.version]
+#path = "src/scyseq/__init__.py"
 
 [tool.hatch.envs.default]
 features = ["dev", "docs"]
