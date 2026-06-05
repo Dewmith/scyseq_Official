@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "scyseq"
 # version number is dynamically retrieved from Git tags by hatch-vcs
-#dynamic = ["version"]
+dynamic = ["version"]
 description = "Provides objects and tools to analyze symbolic sequences"
 readme = "README.md"
 authors = [
