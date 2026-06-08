@@ -10,7 +10,8 @@ description = "Provides objects and tools to analyze symbolic sequences"
 readme = "README.md"
 authors = [
     { name = "Laurent Pezard" },
-    { name = "Jean-Luc Blanc" }
+    { name = "Jean-Luc Blanc" },
+    { name = "Dewmith Weerasena"}
 ]
 
 maintainers = [
