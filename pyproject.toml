@@ -9,6 +9,11 @@ dynamic = ["version"]
 description = "Provides objects and tools to analyze symbolic sequences"
 readme = "README.md"
 authors = [
+    { name = "Laurent Pezard" },
+    { name = "Jean-Luc Blanc" }
+]
+
+maintainers = [
     { name = "Laurent Pezard", email = "laurent.pezard@univ-amu.fr" },
     { name = "Jean-Luc Blanc", email = "jean-luc.blanc@univ-amu.fr" }
 ]
