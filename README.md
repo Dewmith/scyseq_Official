@@ -1,8 +1,5 @@
-<div align="center">
-
 # ***scyseq***: Symbolic Sequences Processing in Python
 
-</div>
 
 `scyseq` is a `Python` package for generating, defining, manipulating, characterizing and
 plotting _symbolic sequences_ which are defined as successive occurrences of
